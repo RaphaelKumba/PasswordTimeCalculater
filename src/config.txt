@@ -1,0 +1,15 @@
+**Configuration file for WikiApp**
+
+**Application Size**
+size = 850
+
+**Application theme: dark, bright, fhnw, oceans, intellij, ugly and custom.**
+theme = dark
+
+**Custom themes can have the following parameters:**
+font = #1e272e
+background = #808e9b
+fields = #d2dae2
+fields shadow = #485460
+controls on = #4bcffa
+controls off = #575fcf
