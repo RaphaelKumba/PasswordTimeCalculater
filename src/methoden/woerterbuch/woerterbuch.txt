@@ -18,3 +18,5 @@ essen
 Laura
 Tobias
 Peter
+Hallo
+Aufwiedersehen

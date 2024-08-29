@@ -1,4 +1,4 @@
-package password;
+package methoden.woerterbuch;
 
 import java.awt.List;
 import java.io.BufferedReader;
@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * Ladet die Wörterbuchdatei und erstellt eine Liste mit den Einträgen.
  */
-public class Woerterbuch {
+public class WoerterbuchLoader {
 
     private final List commonPasswords = new List();
 
@@ -20,7 +20,7 @@ public class Woerterbuch {
 
     private void read() {
         try {
-            File file = new File("src/password/woerterbuch.txt");
+            File file = new File("src/methoden/woerterbuch/woerterbuch.txt");
             FileReader fr = new FileReader(file);
             BufferedReader br = new BufferedReader(fr);
             String line;

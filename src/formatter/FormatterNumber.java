@@ -1,4 +1,4 @@
-package password;
+package formatter;
 
 /**
  * Formatiert den Zahlenstring, um die Leserlichkeit zu verbessern.
@@ -8,7 +8,7 @@ package password;
  */
 public class FormatterNumber {
     public static String formatResult(String s) {
-        for (int i = 0; i < s.length(); i++) if (s.charAt(i) == '.') s = s.substring(0, i - 1);
+        for (int i = 0; i < s.length(); i++) if (s.charAt(i) == '.') s = s.substring(0, i);
 
         StringBuilder string = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {
